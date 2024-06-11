@@ -1,5 +1,8 @@
 /* League Spartan */
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+ 
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Basic styles */
 body {
@@ -24,13 +27,30 @@ body {
   color: #ffffff;
 }
 
+.montserrat-logo {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    letter-spacing: 0.05em;
+    align-content: center;
+    color: #ffffff;
+}
+
 header {
     margin: 0;
     text-align: left;
 }
 
+.logo {
+    display: flex;
+}
+
 #logo {
+    display: inline;
     margin-left: 10px;
+    margin-right: -8px;
 }
 
 h1.league-spartan {
